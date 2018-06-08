@@ -115,11 +115,11 @@
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;180.00000000000000&lt;/Val&gt;
+&lt;Val&gt;160.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;40.00000000000000&lt;/Val&gt;
+&lt;Val&gt;50.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -127,7 +127,7 @@
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;height&lt;/Name&gt;
-&lt;Val&gt;150.00000000000000&lt;/Val&gt;
+&lt;Val&gt;170.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;/Cluster&gt;
 &lt;/Cluster&gt;
@@ -137,7 +137,7 @@
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;botHeight&lt;/Name&gt;
-&lt;Val&gt;112.00000000000000&lt;/Val&gt;
+&lt;Val&gt;126.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;Refnum&gt;
 &lt;Name&gt;name&lt;/Name&gt;
@@ -196,7 +196,8 @@
 +Sample Command
 +Initialize
 +Disconnect
-+Send Sample Command&lt;/Val&gt;
++Send Sample Command
++Send Command&lt;/Val&gt;
 &lt;/String&gt;
 &lt;/Cluster&gt;
 </Val>
@@ -239,11 +240,11 @@
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;210.00000000000000&lt;/Val&gt;
+&lt;Val&gt;180.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;230.00000000000000&lt;/Val&gt;
+&lt;Val&gt;280.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -316,7 +317,7 @@
 &lt;Val&gt;+Connect
 +Initialize
 +Disconnect
-+Send Sample Command&lt;/Val&gt;
++Send Command&lt;/Val&gt;
 &lt;/String&gt;
 &lt;/Cluster&gt;
 </Val>
@@ -472,18 +473,18 @@
 &lt;NumElts&gt;2&lt;/NumElts&gt;
 &lt;Array&gt;
 &lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
-&lt;Dimsize&gt;1&lt;/Dimsize&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Path&gt;
 &lt;Name&gt;Path&lt;/Name&gt;
-&lt;Val&gt;C:\LGP5\Resources\Unit-Testing\Serial Project\Libraries\Simulated Serial Device_class\Send Sample Command.vi&lt;/Val&gt;
+&lt;Val&gt;&lt;/Val&gt;
 &lt;/Path&gt;
 &lt;/Array&gt;
 &lt;Array&gt;
 &lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
-&lt;Dimsize&gt;1&lt;/Dimsize&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
 &lt;Path&gt;
 &lt;Name&gt;Path&lt;/Name&gt;
-&lt;Val&gt;C:\LGP5\Resources\Unit-Testing\Serial Project\Libraries\Serial Device_class\Sample Command.vi&lt;/Val&gt;
+&lt;Val&gt;&lt;/Val&gt;
 &lt;/Path&gt;
 &lt;/Array&gt;
 &lt;/Cluster&gt;
