@@ -17,6 +17,11 @@
 			<Item Name="Simulated Serial Device.lvclass" Type="LVClass" URL="../Libraries/Simulated Serial Device_class/Simulated Serial Device.lvclass"/>
 			<Item Name="iTacho.lvclass" Type="LVClass" URL="../Libraries/iTacho_class/iTacho.lvclass"/>
 		</Item>
+		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="Stand Alone Unit Test" Type="Folder">
+				<Item Name="Stand Alone Test for Find Complete Frame.vi" Type="VI" URL="../Unit Tests/Stand Alone Test for Find Complete Frame.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Serial Quick Test.vi" Type="VI" URL="../Libraries/Serial Device_class/Serial Quick Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
