@@ -15,6 +15,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Serial Device.lvclass" Type="LVClass" URL="../Libraries/Serial Device_class/Serial Device.lvclass"/>
 			<Item Name="Simulated Serial Device.lvclass" Type="LVClass" URL="../Libraries/Simulated Serial Device_class/Simulated Serial Device.lvclass"/>
+			<Item Name="iTacho.lvclass" Type="LVClass" URL="../Libraries/iTacho_class/iTacho.lvclass"/>
 		</Item>
 		<Item Name="Serial Quick Test.vi" Type="VI" URL="../Libraries/Serial Device_class/Serial Quick Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
