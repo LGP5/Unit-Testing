@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="17008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
@@ -20,7 +20,7 @@
 	<Property Name="utf.create.timeout.value" Type="UInt">0</Property>
 	<Property Name="utf.create.type" Type="UInt">0</Property>
 	<Property Name="utf.enable.RT.VI.server" Type="Bool">false</Property>
-	<Property Name="utf.passwords" Type="Bin">&amp;Q#!!!!!!!)!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!!#6"B=X.X&lt;X*E=Q!"!!%!!!!"!!!!#F652E&amp;-4&amp;.516)!!!!!</Property>
+	<Property Name="utf.passwords" Type="Bin">'!#!!!!!!!)!%%!Q`````Q:4&gt;(*J&lt;G=!!":!1!!"`````Q!!#6"B=X.X&lt;X*E=Q!"!!%!!!!"!!!!#F652E&amp;-4&amp;.516)!!!!!</Property>
 	<Property Name="utf.report.atml.create" Type="Bool">false</Property>
 	<Property Name="utf.report.atml.path" Type="Path">ATML report.xml</Property>
 	<Property Name="utf.report.atml.view" Type="Bool">false</Property>
@@ -29,9 +29,9 @@
 	<Property Name="utf.report.details.passed" Type="Bool">false</Property>
 	<Property Name="utf.report.errors" Type="Bool">true</Property>
 	<Property Name="utf.report.failed" Type="Bool">true</Property>
-	<Property Name="utf.report.html.create" Type="Bool">false</Property>
+	<Property Name="utf.report.html.create" Type="Bool">true</Property>
 	<Property Name="utf.report.html.path" Type="Path">HTML report.html</Property>
-	<Property Name="utf.report.html.view" Type="Bool">false</Property>
+	<Property Name="utf.report.html.view" Type="Bool">true</Property>
 	<Property Name="utf.report.passed" Type="Bool">true</Property>
 	<Property Name="utf.report.skipped" Type="Bool">true</Property>
 	<Property Name="utf.report.sortby" Type="UInt">1</Property>
@@ -43,7 +43,7 @@
 	<Property Name="utf.report.txt.view" Type="Bool">false</Property>
 	<Property Name="utf.run.changed.days" Type="UInt">1</Property>
 	<Property Name="utf.run.changed.outdated" Type="Bool">false</Property>
-	<Property Name="utf.run.changed.timestamp" Type="Bin">&amp;Q#!!!!!!!%!%%"5!!9*2'&amp;U:3^U;7VF!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	<Property Name="utf.run.changed.timestamp" Type="Bin">'!#!!!!!!!%!%%"5!!9*2'&amp;U:3^U;7VF!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	<Property Name="utf.run.days.flag" Type="Bool">false</Property>
 	<Property Name="utf.run.includevicallers" Type="Bool">false</Property>
 	<Property Name="utf.run.logfile.flag" Type="Bool">false</Property>
@@ -71,6 +71,7 @@
 			<Item Name="Simulated Serial Device.lvclass" Type="LVClass" URL="../Libraries/Simulated Serial Device_class/Simulated Serial Device.lvclass"/>
 			<Item Name="iTacho.lvclass" Type="LVClass" URL="../Libraries/iTacho_class/iTacho.lvclass"/>
 		</Item>
+		<Item Name="Documentation" Type="Folder"/>
 		<Item Name="Unit Tests" Type="Folder">
 			<Item Name="JKI VI Tester" Type="Folder">
 				<Item Name="Test Find Complete Frame.lvclass" Type="LVClass" URL="../Unit Tests/JKI VI Tester/Test Find Complete Frame/Test Find Complete Frame.lvclass"/>
@@ -83,9 +84,28 @@
 					<Property Name="utf.test.bind" Type="Str">iTacho.lvclass:Find Complete Frame.vi</Property>
 					<Property Name="utf.vector.test.bind" Type="Str">626EF289-AC5C-2035-DC5D-F6CEEAF255DE</Property>
 				</Item>
+				<Item Name="SequenceI8.lvvect" Type="TestVectorItem" URL="../Unit Tests/UTF/SequenceI8.lvvect">
+					<Property Name="utf.vector.test.bind" Type="Str">C13957AB-2D6B-EE62-55AE-9F8D331D7F30;C59EE5E4-ECF4-B586-ABE2-2AA5E375E4E2</Property>
+				</Item>
+				<Item Name="Untitled.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Untitled.lvtest">
+					<Property Name="utf.test.bind" Type="Str">VectorTester.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">C13957AB-2D6B-EE62-55AE-9F8D331D7F30</Property>
+				</Item>
+				<Item Name="User_Defined_Test_VectorTesterTwoInputs.vi" Type="VI" URL="../User_Defined_Test_VectorTesterTwoInputs.vi"/>
+				<Item Name="VectorTesterTwoInputs.lvtest" Type="TestItem" URL="../Unit Tests/UTF/VectorTesterTwoInputs.lvtest">
+					<Property Name="utf.test.bind" Type="Str">VectorTesterTwoInputs.vi</Property>
+					<Property Name="utf.vector.test.bind" Type="Str">C59EE5E4-ECF4-B586-ABE2-2AA5E375E4E2</Property>
+				</Item>
 			</Item>
 		</Item>
+		<Item Name="VI Analyzer" Type="Folder"/>
 		<Item Name="Serial Quick Test.vi" Type="VI" URL="../Libraries/Serial Device_class/Serial Quick Test.vi"/>
+		<Item Name="User_Defined_Test_VectorTesterTwoInputs.lvtest" Type="TestItem" URL="../Unit Tests/UTF/User_Defined_Test_VectorTesterTwoInputs.lvtest">
+			<Property Name="utf.test.bind" Type="Str">VectorTesterTwoInputs.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">F8552344-A6D5-8A46-F99B-368F1BECF3E9</Property>
+		</Item>
+		<Item Name="VectorTester.vi" Type="VI" URL="../VectorTester.vi"/>
+		<Item Name="VectorTesterTwoInputs.vi" Type="VI" URL="../VectorTesterTwoInputs.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
