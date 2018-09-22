@@ -84,28 +84,10 @@
 					<Property Name="utf.test.bind" Type="Str">iTacho.lvclass:Find Complete Frame.vi</Property>
 					<Property Name="utf.vector.test.bind" Type="Str">626EF289-AC5C-2035-DC5D-F6CEEAF255DE</Property>
 				</Item>
-				<Item Name="SequenceI8.lvvect" Type="TestVectorItem" URL="../Unit Tests/UTF/SequenceI8.lvvect">
-					<Property Name="utf.vector.test.bind" Type="Str">C13957AB-2D6B-EE62-55AE-9F8D331D7F30;C59EE5E4-ECF4-B586-ABE2-2AA5E375E4E2</Property>
-				</Item>
-				<Item Name="Untitled.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Untitled.lvtest">
-					<Property Name="utf.test.bind" Type="Str">VectorTester.vi</Property>
-					<Property Name="utf.vector.test.bind" Type="Str">C13957AB-2D6B-EE62-55AE-9F8D331D7F30</Property>
-				</Item>
-				<Item Name="User_Defined_Test_VectorTesterTwoInputs.vi" Type="VI" URL="../User_Defined_Test_VectorTesterTwoInputs.vi"/>
-				<Item Name="VectorTesterTwoInputs.lvtest" Type="TestItem" URL="../Unit Tests/UTF/VectorTesterTwoInputs.lvtest">
-					<Property Name="utf.test.bind" Type="Str">VectorTesterTwoInputs.vi</Property>
-					<Property Name="utf.vector.test.bind" Type="Str">C59EE5E4-ECF4-B586-ABE2-2AA5E375E4E2</Property>
-				</Item>
 			</Item>
 		</Item>
 		<Item Name="VI Analyzer" Type="Folder"/>
 		<Item Name="Serial Quick Test.vi" Type="VI" URL="../Libraries/Serial Device_class/Serial Quick Test.vi"/>
-		<Item Name="User_Defined_Test_VectorTesterTwoInputs.lvtest" Type="TestItem" URL="../Unit Tests/UTF/User_Defined_Test_VectorTesterTwoInputs.lvtest">
-			<Property Name="utf.test.bind" Type="Str">VectorTesterTwoInputs.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">F8552344-A6D5-8A46-F99B-368F1BECF3E9</Property>
-		</Item>
-		<Item Name="VectorTester.vi" Type="VI" URL="../VectorTester.vi"/>
-		<Item Name="VectorTesterTwoInputs.vi" Type="VI" URL="../VectorTesterTwoInputs.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Array Size(s)__ogtk__jki_vi_tester.vi"/>
