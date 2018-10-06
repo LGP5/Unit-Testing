@@ -92,7 +92,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="JKI VI Tester Add Test.lvclass" Type="LVClass" URL="../JKI VI Tester Add Test/JKI VI Tester Add Test.lvclass"/>
+		<Item Name="Unit Tests - JKI VI Tester" Type="Folder">
+			<Item Name="JKI VI Tester Add Test.lvclass" Type="LVClass" URL="../Unit Tests/JKI VI Tester Add Test/JKI VI Tester Add Test.lvclass"/>
+		</Item>
 		<Item Name="Simple RT Add.vi" Type="VI" URL="../Simple RT Add.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
