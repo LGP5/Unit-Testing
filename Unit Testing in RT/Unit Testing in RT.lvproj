@@ -29,9 +29,9 @@
 	<Property Name="utf.report.details.passed" Type="Bool">false</Property>
 	<Property Name="utf.report.errors" Type="Bool">true</Property>
 	<Property Name="utf.report.failed" Type="Bool">true</Property>
-	<Property Name="utf.report.html.create" Type="Bool">false</Property>
+	<Property Name="utf.report.html.create" Type="Bool">true</Property>
 	<Property Name="utf.report.html.path" Type="Path">HTML report.html</Property>
-	<Property Name="utf.report.html.view" Type="Bool">false</Property>
+	<Property Name="utf.report.html.view" Type="Bool">true</Property>
 	<Property Name="utf.report.passed" Type="Bool">true</Property>
 	<Property Name="utf.report.skipped" Type="Bool">true</Property>
 	<Property Name="utf.report.sortby" Type="UInt">1</Property>
@@ -100,7 +100,6 @@
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
-		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
 		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
 		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
@@ -149,7 +148,12 @@ AddOutputFilter chunkFilter
 		<Item Name="Unit Tests - JKI VI Tester" Type="Folder">
 			<Item Name="JKI VI Tester Add Test.lvclass" Type="LVClass" URL="../Unit Tests/JKI VI Tester Add Test/JKI VI Tester Add Test.lvclass"/>
 		</Item>
-		<Item Name="Unit Tests - UTF" Type="Folder"/>
+		<Item Name="Unit Tests - UTF" Type="Folder">
+			<Item Name="Simple RT Add.lvtest" Type="TestItem" URL="../Unit Tests/UTF Unit Tests/Simple RT Add.lvtest">
+				<Property Name="utf.test.bind" Type="Str">Simple RT Add.vi</Property>
+				<Property Name="utf.vector.test.bind" Type="Str">E7A9865E-0722-99BF-6BE4-87594D5592C0</Property>
+			</Item>
+		</Item>
 		<Item Name="Simple RT Add.vi" Type="VI" URL="../Simple RT Add.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
