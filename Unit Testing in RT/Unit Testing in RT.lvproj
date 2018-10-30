@@ -431,6 +431,14 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="InstaCoverage unit tests" Type="Folder">
+			<Item Name="Simple RT Add" Type="Folder">
+				<Item Name="Simple RT Add-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage Unit Tests/Simple RT Add-setup.vi"/>
+				<Item Name="Simple RT Add-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage Unit Tests/Simple RT Add-teardown.vi"/>
+				<Item Name="Simple RT Add-test_harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage Unit Tests/Simple RT Add-test_harness.vi"/>
+				<Item Name="Simple RT Add.instacov" Type="Document" URL="../Unit Tests/InstaCoverage Unit Tests/Simple RT Add.instacov"/>
+			</Item>
+		</Item>
 		<Item Name="Unit Tests - UTF" Type="Folder">
 			<Item Name="Simple RT Add.lvtest" Type="TestItem" URL="../Unit Tests/UTF Unit Tests/Simple RT Add.lvtest">
 				<Property Name="utf.test.bind" Type="Str">Simple RT Add.vi</Property>

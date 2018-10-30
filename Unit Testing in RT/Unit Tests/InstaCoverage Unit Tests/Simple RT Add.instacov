@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.1.1.1" id="Simple RT Add.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="test 3 + 2">
+      <COMMENT>This test is a simple test to prove that InstaCoverage tests do run directly in RT.</COMMENT>
+      <REQUIREMENT>Verify that the Simple RT Add.vi can be tested directly in RT.</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Simple RT Add-test_harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\Simple RT Add.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>
