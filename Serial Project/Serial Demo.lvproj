@@ -73,12 +73,7 @@
 		</Item>
 		<Item Name="Documentation" Type="Folder"/>
 		<Item Name="Unit Tests" Type="Folder">
-			<Item Name="Caraya" Type="Folder">
-				<Item Name="Caraya Test for Find Complete Frame.vi" Type="VI" URL="../Unit Tests/Caraya/Caraya Test for Find Complete Frame.vi"/>
-			</Item>
-			<Item Name="JKI VI Tester" Type="Folder">
-				<Item Name="Test Find Complete Frame.lvclass" Type="LVClass" URL="../Unit Tests/JKI VI Tester/Test Find Complete Frame/Test Find Complete Frame.lvclass"/>
-			</Item>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Stand Alone Unit Test" Type="Folder">
 				<Item Name="Stand Alone Test for Find Complete Frame.vi" Type="VI" URL="../Unit Tests/Stand Alone Test for Find Complete Frame.vi"/>
 			</Item>
@@ -86,6 +81,20 @@
 				<Item Name="Find Complete Frame.lvtest" Type="TestItem" URL="../Unit Tests/UTF/Find Complete Frame.lvtest">
 					<Property Name="utf.test.bind" Type="Str">iTacho.lvclass:Find Complete Frame.vi</Property>
 					<Property Name="utf.vector.test.bind" Type="Str">626EF289-AC5C-2035-DC5D-F6CEEAF255DE</Property>
+				</Item>
+			</Item>
+			<Item Name="JKI VI Tester" Type="Folder">
+				<Item Name="Test Find Complete Frame.lvclass" Type="LVClass" URL="../Unit Tests/JKI VI Tester/Test Find Complete Frame/Test Find Complete Frame.lvclass"/>
+			</Item>
+			<Item Name="Caraya" Type="Folder">
+				<Item Name="Caraya Test for Find Complete Frame.vi" Type="VI" URL="../Unit Tests/Caraya/Caraya Test for Find Complete Frame.vi"/>
+			</Item>
+			<Item Name="InstaCoverage unit tests" Type="Folder">
+				<Item Name="iTacho_Find Complete Frame" Type="Folder">
+					<Item Name="iTacho_Find Complete Frame-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage/iTacho_Find Complete Frame-setup.vi"/>
+					<Item Name="iTacho_Find Complete Frame-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage/iTacho_Find Complete Frame-teardown.vi"/>
+					<Item Name="iTacho_Find Complete Frame-test_harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage/iTacho_Find Complete Frame-test_harness.vi"/>
+					<Item Name="iTacho_Find Complete Frame.instacov" Type="Document" URL="../Unit Tests/InstaCoverage/iTacho_Find Complete Frame.instacov"/>
 				</Item>
 			</Item>
 		</Item>
