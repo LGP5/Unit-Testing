@@ -6,10 +6,6 @@
       <COMMENT>This test verifies that given a buffer that contains exactly one frame, when the code parses the buffer, then the code returns the frame and there are no leftover bytes.</COMMENT>
       <REQUIREMENT>The parser should return a complete frame with no leftover bytes when it receives exactly one frame.</REQUIREMENT>
     </TEST_CASE>
-    <TEST_CASE id="testcaseID2">
-      <COMMENT>Test comment</COMMENT>
-      <REQUIREMENT>Test requirement</REQUIREMENT>
-    </TEST_CASE>
   </TEST_CASES>
 
   <HARNESS_PATH>iTacho_Find Complete Frame-test_harness.vi</HARNESS_PATH>
