@@ -386,6 +386,7 @@
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
+		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
 		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
 		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
