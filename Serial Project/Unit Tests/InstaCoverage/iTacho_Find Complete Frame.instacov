@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.1.1.1" id="iTacho_Find Complete Frame.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Test Find Exactly One Frame">
+      <COMMENT>This test verifies that given a buffer that contains exactly one frame, when the code parses the buffer, then the code returns the frame and there are no leftover bytes.</COMMENT>
+      <REQUIREMENT>The parser should return a complete frame with no leftover bytes when it receives exactly one frame.</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>iTacho_Find Complete Frame-test_harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\Libraries\iTacho_class\Find Complete Frame.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>
