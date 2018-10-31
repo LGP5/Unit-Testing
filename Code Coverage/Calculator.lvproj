@@ -65,6 +65,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="InstaCoverage unit tests" Type="Folder">
+			<Item Name="Calculator" Type="Folder">
+				<Item Name="Calculator-setup.vi" Type="VI" URL="../Unit Tests/InstaCoverage Tests/Calculator-setup.vi"/>
+				<Item Name="Calculator-teardown.vi" Type="VI" URL="../Unit Tests/InstaCoverage Tests/Calculator-teardown.vi"/>
+				<Item Name="Calculator-test_harness.vi" Type="VI" URL="../Unit Tests/InstaCoverage Tests/Calculator-test_harness.vi"/>
+				<Item Name="Calculator.instacov" Type="Document" URL="../Unit Tests/InstaCoverage Tests/Calculator.instacov"/>
+			</Item>
+		</Item>
 		<Item Name="Unit Tests" Type="Folder">
 			<Item Name="Unit Test Framework" Type="Folder">
 				<Item Name="Calculator.lvtest" Type="TestItem" URL="../Unit Tests/Unit Test Framework Tests/Calculator.lvtest">

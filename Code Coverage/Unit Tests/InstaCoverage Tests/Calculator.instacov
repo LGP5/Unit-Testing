@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<TEST_SUITE ICovVersion="2.1.1.1" id="Calculator.instacov">
+
+  <TEST_CASES>
+    <TEST_CASE id="Add">
+      <COMMENT>Test the calculator addition operation to show InstaCoverage code coverage report feature.</COMMENT>
+      <REQUIREMENT>Show how InstaCoverage reports code coverage.</REQUIREMENT>
+    </TEST_CASE>
+  </TEST_CASES>
+
+  <HARNESS_PATH>Calculator-test_harness.vi</HARNESS_PATH>
+
+  <VI_UNDER_TEST_PATH>..\..\Code\Calculator.vi</VI_UNDER_TEST_PATH>
+
+</TEST_SUITE>
